@@ -2,7 +2,7 @@ count=0
 
 read num
 
-while [ "$num" -gt 0 ]
+while [ "$num" -ls 0 ]
 do 
 	rem=$((num % 10))
 	count=$((count + 1))
